@@ -1,0 +1,75 @@
+<h2>Editar persona</h2>
+<form>
+    <div style="width:50%; float:left;">
+        <label for="tipoIdentificacion">Tipo identificación: </label>
+        <br>
+        <select name="tipoIdentificacion" disabled>
+            <option value="cedula">Cédula</option>
+            <option value="tarjetaIdentidad">Tarjeta identidad</option>
+            <option value="pasaporte">Pasaporte</option>
+        </select>
+        <br>
+        <br>
+        <label for="names">Nombres</label>
+        <br>
+        <input name="names" type="text"  placeholder="Nombres" />
+        <br>
+        <br>
+        <label for="number">Número telefónico</label>
+        <br>
+        <input name="number" type="text"  placeholder="Número telefónico" />
+        <br>
+        <br>
+        <label for="estado">Estado: </label>
+        <br>
+        <select name="estado">
+            <option value="soltero">Soltero</option>
+            <option value="casado">Casado</option>
+            <option value="viudo">Viudo</option>
+        </select>
+        <br>
+        <br>
+        <label for="roles">Roles: </label>
+        <br>
+        <input type="checkbox" name="comprador" value="comprador"> Comprador
+        <input type="checkbox" name="vendedor" value="vendedor"> Vendedor<br>
+        <br>
+        <label for="mayor">Es mayor de edad: </label>
+        <br>
+        <input type="radio" name="mayor" value="si"> Si
+        <input type="radio" name="mayor" value="no"> No
+        <br>
+
+    </div>
+    <div style="width:50%; float:left;">
+        <label for="numberId">Número identificación: </label>
+        <br>
+        <input name="numberId" type="text"  placeholder="Número identificación" disabled/>
+        <br>
+        <br>
+        <label for="apellidos">Apellidos: </label>
+        <br>
+        <input name="apellidos" type="text"  placeholder="Apellidos" />
+        <br>
+        <br>
+        <label for="edad">Edad: </label>
+        <br>
+        <input name="edad" type="text"  placeholder="Edad" />
+        <br>
+        <br>
+        <label for="sexo">Sexo: </label>
+        <br>
+        <input type="radio" name="gender" value="male"> Masculino
+        <input type="radio" name="gender" value="female"> Femenino
+        <input type="radio" name="gender" value="other"> Otro
+        <br>
+        <br>
+        <br>
+        <br>
+        <input value="Igresar" type="button">
+        <br>
+        <br>
+        <br><br>
+    </div>
+    
+</form>
